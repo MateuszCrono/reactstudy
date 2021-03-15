@@ -8,3 +8,9 @@
   margin: 0 0 $base-size 0;
   border-radius: $radius;
 }
+
+.title {
+  text-align: center;
+  font-size: ($base-size * 1.5);
+  margin: 0 0 ($base-size * 1.5) 0;
+}
