@@ -1,4 +1,3 @@
-import shortid from 'shortid';
 
 // selectors
 export const getSearchString = ({searchString}) => searchString;
