@@ -148,4 +148,16 @@ const initialStoreData = {
   cards: [...cards],
 };
 
+export const FaqData = {
+  title: 'Frequently asked questions',
+  image: 'https://st2.depositphotos.com/1637332/6198/i/600/depositphotos_61989025-stock-photo-business-button-faq.jpg',
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+};
+
+export const InfoData = {
+  title: 'Useful Information',
+  image: 'https://image.shutterstock.com/image-photo/helpful-tips-260nw-271166084.jpg',
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+};
+
 export default initialStoreData;
