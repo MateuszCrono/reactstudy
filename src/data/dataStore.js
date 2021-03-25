@@ -31,11 +31,15 @@ export const listData = {
       cards: [
         {
           key: 0,
-          title: 'This Is Going to Hurt',
+          title: 'Name of The Wind',
         },
         {
           key: 1,
-          title: 'Interpreter of Maladies',
+          title: 'StormLight Archieve',
+        },
+        {
+          key: 2,
+          title: 'Song of Fire and Ice',
         },
       ],
     },
@@ -46,7 +50,7 @@ export const listData = {
       cards: [
         {
           key: 0,
-          title: 'Harry Potter',
+          title: 'Back to the Future',
         },
         {
           key: 1,
@@ -61,11 +65,11 @@ export const listData = {
       cards: [
         {
           key: 0,
-          title: 'The Witcher',
+          title: 'Baldurs Gate',
         },
         {
           key: 1,
-          title: 'Skyrim',
+          title: 'Planescape Torment',
         },
       ],
     },
@@ -75,9 +79,20 @@ export const listData = {
 const lists = [
   {
     id: 'list-1',
-    title: 'Things to do <sup>soon!</sup>',
-    description: 'Interesting things I want to check out!',
-    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+    title: 'Things you should read <sup>soon!</sup>',
+    description: 'My favourite books',
+    image: 'https://miro.medium.com/max/780/1*C76PXdoMXtysxqiwkS5iow.png',
+  }, 
+  {
+    id: 'list-2',
+    title: 'Things you should watch <sup>soon!</sup>',
+    description: 'My favourite movies ',
+    image: 'https://cdn.abcotvs.com/dip/images/5698337_holiday-hallmark-movie-binge.jpg?w=800&r=16%3A9',
+  }, {
+    id: 'list-3',
+    title: 'Things you should play <sup>soon!</sup>',
+    description: 'My favourite video games',
+    image: 'https://images.theconversation.com/files/327017/original/file-20200409-112571-1lbz2fo.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=900.0&fit=crop',
   },
 ];
 
@@ -85,26 +100,38 @@ const columns = [
   {
     id: 'column-1',
     listId: 'list-1',
-    title: 'Books',
-    icon: 'book',
+    title: 'Fantasy Books',
+    icon: 'dice',
+  }, 
+  {
+    id: 'column-6',
+    listId: 'list-1',
+    title: 'Sc-Fi Books',
+    icon: 'rocket',
   },
   {
     id: 'column-2',
-    listId: 'list-1',
-    title: 'Movies',
+    listId: 'list-2',
+    title: 'Action',
     icon: 'film',
   },
   {
     id: 'column-3',
-    listId: 'list-1',
+    listId: 'list-3',
     title: 'Games',
     icon: 'gamepad',
   },
   {
     id: 'column-4',
     listId: 'list-2',
-    title: 'Strange column',
-    icon: 'question',
+    title: 'Dramas',
+    icon: 'mask',
+  },
+  {
+    id: 'column-5',
+    listId: 'list-2',
+    title: 'Animation',
+    icon: 'baby',
   },
 ];
 
@@ -112,17 +139,17 @@ const cards = [
   {
     id: 'card-1',
     columnId: 'column-1',
-    title: 'This Is Going to Hurt',
+    title: 'Name of The Wind',
   },
   {
     id: 'card-2',
     columnId: 'column-1',
-    title: 'Interpreter of Maladies',
+    title: 'StormLight Archieve',
   },
   {
     id: 'card-3',
     columnId: 'column-2',
-    title: 'Harry Potter',
+    title: 'Back to the Future',
   },
   {
     id: 'card-4',
@@ -132,12 +159,12 @@ const cards = [
   {
     id: 'card-5',
     columnId: 'column-3',
-    title: 'The Witcher',
+    title: 'Baldurs Gate',
   },
   {
     id: 'card-6',
     columnId: 'column-3',
-    title: 'Skyrim',
+    title: 'Planescape Torment',
   },
 ];
 
