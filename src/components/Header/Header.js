@@ -1,8 +1,8 @@
 import React from 'react';
 import {NavLink, Link} from 'react-router-dom';
 import Container from '../Container/Container';
-import styles from './header.scss';
-import Icon from '../Icon/icon.js';
+import styles from './Header.scss';
+import Icon from '../Icon/Icon.js';
 import Search from '../Search/Search';
 
 
