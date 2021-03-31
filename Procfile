@@ -1,1 +1,1 @@
-server: "http-server dist"
+server: http-server dist
