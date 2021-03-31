@@ -22,7 +22,7 @@ const App = () => (
             <Route exact path="/info" component={Info} />
             <Route exact path="/faq" component={Faq} />
             <Route exact path="/list/:id" component={List} />
-            <Route exact path="/search/:id" component={SearchResults} />
+            <Route exact path="/search/:searchString" component={SearchResults} />
             </AnimatedSwitch>
         </MainLayout>
     </BrowserRouter>
